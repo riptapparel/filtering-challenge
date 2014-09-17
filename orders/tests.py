@@ -2,8 +2,6 @@ from django.test import TestCase
 
 from orders.models import Order, OrderItem
 
-import results
-
 
 class OrderOrderingTestCase(TestCase):
     fixtures = ['test_orders.json']
